@@ -1,0 +1,167 @@
+html,
+body,
+.App,
+.App > div,
+#root,
+.loginContianer {
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+.App-header {
+  top: 0;
+  min-height: 4rem;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+.lifestyleImg {
+  background: linear-gradient(#97cdb4, #dde0a5);
+  border-radius: 20px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  float: none;
+  max-width: 96%;
+}
+.App-header .Logo {
+  width: 8.125rem;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+
+.lists {
+  color: #3c3c3c;
+  font-size: 0.75rem;
+  line-height: 1.3em;
+  letter-spacing: 0.01em;
+  margin-top: 15px;
+}
+.navicon {
+  font-size: 0.8rem;
+  margin: 0px 23px;
+}
+.headings {
+  font-family: enphase-visuelt-medium;
+  font-size: 0.875rem !important;
+  color: #6e6e73 !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+  font-size: 30px !important;
+}
+
+/* react-elastic-carousel */
+
+.kdCslO {
+  display: none !important;
+}
+.eWjCzc {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* cartdropdown */
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  overflow-y: auto !important;
+  /* height: 490px; */
+}
+
+/* Tooltip */
+.css-ja5taz-MuiTooltip-tooltip {
+  padding: 10px !important;
+  margin-top: 11px;
+  margin-left: 61px;
+  background-color: rgb(182, 179, 179) !important;
+  font-family: enphase-visuelt-medium !important;
+  font-size: 0.875rem !important;
+}
+
+/* mobileview */
+.css-10hburv-MuiTypography-root {
+  color: #cecbcb !important;
+  font-family: enphase-visuelt-regular, sans-serif !important;
+  font-size: 16px !important;
+}
+
+/* modalbox input */
+.inputBox {
+  border-style: solid;
+  padding-top: 24px;
+  background-color: #f4f4f4;
+  border-color: transparent;
+  border-radius: 4px;
+  color: #181818;
+  font-size: 16px;
+  height: 48px;
+  width: 100%;
+  outline: none;
+}
+.inputBox:focus {
+  border-width: 2px;
+  border-color: #f37321;
+  background-color: #f4f4f4;
+}
+.floatlabel {
+  color: #707070;
+  height: 16px;
+  font-size: 12px;
+  left: 30px;
+  opacity: 1;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  text-overflow: ellipsis;
+  top: 15px;
+  white-space: nowrap;
+  width: calc(100% - 20px);
+  transition: 0.2s ease all;
+}
+.floatlabel:focus {
+  color: #f37321;
+}
+.css-1w7e6fu-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #f37321 !important;
+}
+/* .inputBox:not(:placeholder-shown)~ .floatlabel{
+  opacity: 1;
+} */
+.css-1ombvec-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-1ombvec-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: #0075ff !important  ;
+}
+/* Stepper */
+
+.css-j5w0w9-MuiStepConnector-root {
+  width: 76px !important;
+}
+
+/* MEDIA QUERY */
+/* lifestyle  */
+@media screen and (min-width: 1441px) and (max-width: 2000px) {
+  .lifestyleImg {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    max-width: 96%;
+  }
+}
+/* stepper */
+@media (max-width: 480px) {
+  .css-j5w0w9-MuiStepConnector-root {
+    width: 57px !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 880px) {
+  .css-j5w0w9-MuiStepConnector-root {
+    width: 182px !important;
+  }
+}
